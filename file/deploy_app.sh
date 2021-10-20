@@ -11,7 +11,7 @@ cat << EOM > /var/www/html/index.html
   <!-- BEGIN -->
   <center><img src="http://placedog.net/800/600?random"></img></center>
   <center><h2>Dog rules!</h2></center>
-  Welcome to ${PREFIX}'s app. Have fun with your dogs!
+  Welcome to ${PREFIX}'s app. Be good and have fun with your dogs!
   <!-- END -->
 
   </div>

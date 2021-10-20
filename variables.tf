@@ -5,7 +5,7 @@
 variable "prefix" {
   description = "This prefix will be included in the name of most resources."
   type        = string
-  default     = "amarlojo"
+  default     = "tfcamarlojo"
 }
 
 variable "region" {
@@ -32,4 +32,3 @@ variable "placeholder" {
   default     = "placedog.net/800/600?random"
   description = "Image-as-a-service URL."
 }
-  
