@@ -129,6 +129,7 @@ resource "aws_instance" "DogoAL" {
 
   tags = {
     Name = "${var.prefix}-DogoAL-instance"
+    Department = "devops"
   }
 }
 
