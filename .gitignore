@@ -1,0 +1,25 @@
+#  Local .terraform directories
+**/.terraform/*
+
+# .tfstate files
+*.tfstate
+*.tfstate.*
+
+# .tfvars files
+*.tfvars
+
+# no creds
+*.pem
+*.key
+id_rsa.pub
+id_rsa
+id_dsa.pub
+id_dsa
+
+# terraformrc file
+terraform.rc
+.terraformrc
+
+# Workspace
+DogoAL.code-Workspace
+
