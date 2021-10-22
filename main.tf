@@ -128,8 +128,7 @@ resource "aws_instance" "DogoAL" {
   vpc_security_group_ids      = [aws_security_group.DogoAL.id]
 
   tags = {
-    Name = "${var.prefix}-DogoAL-instance"
-    Department = "devops"
+    Name = "${var.prefix}-DogoAL-instance"    
   }
 }
 
